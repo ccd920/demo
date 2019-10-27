@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>購物</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header" id="preOrder">
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="article">
+            <div class="img">
+                <img src="img/banana.jpg" alt="">
+            </div>
+            <div class="aside">
+                <div class="info">
+                    <div id="time">倒數時間：秒</div>
+                    <div id="name">商品名稱：</div>
+                    <div id="num">剩餘數量：</div>
+                </div>
+                <button id="btn" onclick="get()">購買</button>
+            </div>
+        </div>
+    </div>
+    <div class="popUp">
+        <h2>我要購買</h2>
+        <div class="icon">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="row set">
+            <button class="btn less">
+                -
+            </button>
+            <div class="sum">
+                0
+            </div>
+            <button class="btn add">
+                +
+            </button>
+        </div>
+        <div class="btn ok">
+            確定
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="main.js"></script>
+
+</html>
